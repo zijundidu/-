@@ -1,0 +1,27 @@
+<!--pages/main/main.wxml-->
+<swiper class='lunbo' indicator-dots='ture' autoplay='ture' interval='3000'>
+  <swiper-item>
+    <image src='/image/background3.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='/image/background4.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='/image/background3.jpg'></image>
+  </swiper-item>
+   <swiper-item>
+    <image src='/image/background4.jpg'></image>
+  </swiper-item>
+</swiper>
+
+<view class='button'>
+
+  <button bindtap='dt' class='day_tune'>
+    <image src='/image/day-tune.png' id='one'></image>
+  </button>
+
+  <button bindtap='pl' class='plog'>
+    <image src='/image/plog.png' id='two'></image>
+  </button>
+
+</view>

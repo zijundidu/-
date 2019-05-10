@@ -1,0 +1,41 @@
+/* pages/main/main.wxss */
+.lunbo {
+  height: 400rpx;
+  width: 100%;
+}
+
+.lunbo image {
+  height: 100%;
+  width: 100%;
+}
+
+.button {
+  width: 100%;
+  display: flex;
+}
+
+.day_tune {
+  width:35%;
+  margin-top: 10px;
+  margin-left: 35px;
+  float: left;
+  background: transparent;
+}
+
+.plog {
+  width:35%;
+  margin-top: 10px;
+  margin-right: 35px;
+  float: right;
+  background: transparent;
+}
+
+#one {
+  height: 100px;
+  width: 100px;
+}
+
+#two {
+  height: 100px;
+  width: 100px;
+}

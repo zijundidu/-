@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/main/main",
+    "pages/main/Community",
+    "pages/main/myself",
+    "pages/dt/main",
+    "pages/plog/main",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#73def1",
+    "navigationBarTitleText": "Kraken_zero",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#ffaa00",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "主页",
+        "iconPath": "image/caidan.png",
+        "selectedIconPath": "image/caidan-selected.png"
+      },
+      {
+        "pagePath": "pages/main/Community",
+        "text": "社区",
+        "iconPath": "image/sex.png",
+        "selectedIconPath": "image/sex-selected.png"
+      },
+      {
+        "pagePath": "pages/main/myself",
+        "text": "个人",
+        "iconPath": "image/user.png",
+        "selectedIconPath": "image/user-selected.png"
+      }
+    ]
+  }
+}

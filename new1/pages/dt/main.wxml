@@ -1,0 +1,25 @@
+<!--pages/dt/main.wxml-->
+<view class='dt'>
+  <button bindtap='dt_choose' class='dt_choose'>
+    <image src='/image/choose-image.png' id='one'></image>
+  </button>
+  
+  <button bindtap='dt_play' class='dt_play'>
+    <image src='/image/play-image.png' id='two'></image>
+  </button>
+  
+</view>
+
+<!-- 存放照片  -->
+    <canvas canvas-id='dt' hidden='{{img_hidden}}' class="v_image" style="height:500rpx;">
+        <image class="dt_image" src="{{dt_img}}" background-size="100% 100%"></image>
+
+       
+    </canvas>
+
+<view>
+   <text>{{dt_rgb}}</text>
+</view>
+  
+
+    
